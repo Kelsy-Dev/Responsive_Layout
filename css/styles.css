@@ -53,7 +53,8 @@ nav ul li a {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
-}
+ }
+
 .p1 {
     background-color: #8e8c8c;
     color: whitesmoke;
@@ -121,19 +122,25 @@ footer .info a {
     color: #7f7f7f;
     font-weight: 700;
 }
+footer .info a:hover {
+    color: #965020;
+}
 
 .last {
     display: flex;
     justify-content: space-between;
-    padding: 0px 10%;
+    margin: 0px 23px;
     color: black;
     font-weight: 500;
-    border-top: 1px solid rgb(98, 94, 94);
+    border-top: 1px solid #7f7f7f;
 }
 .last a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+}
+.last a:hover {
+    color: rgb(107, 65, 14);
 }
 
 
