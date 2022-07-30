@@ -152,7 +152,7 @@ footer .info a:hover {
 /* media */
 
 @media  screen and (min-width: 768px) {
-    nav, .navul, .myname, .profile {
+    .navul, .myname, .profile {
         display: flex;
     }
 
@@ -164,12 +164,13 @@ footer .info a:hover {
         justify-content: center;
     }
      .myprofile {
-        margin-right: 10%;
+        margin-right: 55px;
         width: 24%;
+        height: 78%;
      }
     .p1 {
         order: -1;
-        flex: 4;
+        flex: 1;
         align-self: center;
     }
    .main-section {
@@ -190,7 +191,20 @@ footer .info a:hover {
        .col {
        flex: 1 30%;
     }
-    .myname, .navul {
-        flex-direction: row;
+    .main-header, .navul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
-}
+    .myname {
+        margin-top: -15px;
+        margin-left: 5%;
+    }
+    .navul {
+        margin-right: 40px;
+    }
+    .p1 {
+        font-size: 110%;
+    }
+
+    }
