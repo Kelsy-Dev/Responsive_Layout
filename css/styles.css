@@ -53,6 +53,11 @@ nav ul li a {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    transition-duration: 0.5s;
+    transition-property: all;
+ }
+ nav ul li a:hover {
+    color: rgb(245, 208, 27);
  }
 
 .p1 {
