@@ -19,7 +19,7 @@ header, footer {
 footer {
     background: #cbc8c8;
 }
-header p, section p, section h1, #portfolio, #contact, #skills {
+header p, section p, section h2, #portfolio, #contact, #skills {
     text-align: center;
 }
 section h1 {
@@ -122,6 +122,7 @@ nav {
     width: 240px;
     margin-top: 7px;
     border-radius: 10px;
+    text-align: center;
 
     transition-duration: 0.5s;
     transition-property: all;
