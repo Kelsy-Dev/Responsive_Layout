@@ -19,7 +19,7 @@ header, footer {
 footer {
     background: #cbc8c8;
 }
-header p, section p, section h1, #portfolio, #contact {
+header p, section p, section h1, #portfolio, #contact, #skills {
     text-align: center;
 }
 section h1 {
@@ -91,12 +91,14 @@ nav {
     align-items: center;
 }
 
-#portfolio, #contact {
+#portfolio, #contact, #skills {
     padding: 20px 1px;
     text-transform: uppercase;
     color: black;
     font-size: 13px;
 }
+
+
 
 /* Section */
 
@@ -107,6 +109,28 @@ nav {
     height: 58%;
 }
 
+/* skills */
+
+.skills-list ul {
+ margin-right: 35px; 
+}
+.skills-list ul li {
+    display: block;
+    background-color: antiquewhite;
+    padding: 5px 3px;
+    margin: auto;
+    width: 240px;
+    margin-top: 7px;
+    border-radius: 10px;
+
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+.skills-list ul li:hover {
+    background-color: rgb(234, 179, 108);
+    color: whitesmoke;
+}
 footer {
     margin-top: 70px;
 }
@@ -180,6 +204,15 @@ footer .info a:hover {
    .col {
    flex: 1 50%;
 }
+.skills-list {
+    display: flex;
+    justify-content: center;
+
+}
+.skills-list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 }
 
@@ -199,12 +232,30 @@ footer .info a:hover {
     .myname {
         margin-top: -15px;
         margin-left: 5%;
+        color: #251002;
     }
     .navul {
         margin-right: 40px;
     }
     .p1 {
         font-size: 110%;
+    }
+    .skills-list {
+        display: flex;
+        justify-content: center;
+    }
+    .skills-list ul {
+        display: flex;
+    }
+    .skills-list ul li {
+        margin-right: 7px;
+        transition-duration: 0.5s;
+        transition-property: all;
+    }
+    .skills-list ul li:hover {
+        transform: translateY(-9px);
+        background-color: rgb(234, 179, 108);
+        color: whitesmoke;
     }
 
     }
