@@ -143,16 +143,16 @@ footer {
 .more {
     text-align: center;
 }
-footer .info {
+.info {
     display: block;
     text-align: center;
 }
-footer .info a {
+.info a {
     text-decoration: none;
     color: #7f7f7f;
     font-weight: 700;
 }
-footer .info a:hover {
+.info a:hover {
     color: #965020;
 }
 
@@ -173,10 +173,9 @@ footer .info a:hover {
     color: rgb(107, 65, 14);
 }
 
-
-
-
-
+.lastnav {
+    display: none;
+}
 
 
 /* media */
@@ -219,8 +218,20 @@ footer .info a:hover {
     display: flex;
     flex-wrap: wrap;
 }
+.top {
+    display: none;
+}
+.lastnav {
+    display: inline-block;
+    margin-top: 13px;
+    padding-left: 8px;
+}
 
 }
+
+
+
+/* 1024px width */
 
 @media  screen and (min-width: 1024px) {
     .main-section {
